@@ -301,8 +301,8 @@ body {
   background-color: #2492D6;
   position: relative;
   background-image: url('../assets/Landing_page6.jpeg');
-  /* background-size: cover; */
-  background-size:contain;
+  background-size: cover;
+  /* background-size:contain; */
   border-bottom: 3px solid #2492D6;
   background-position:center;
   background-repeat: no-repeat;
