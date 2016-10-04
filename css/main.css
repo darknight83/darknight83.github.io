@@ -447,3 +447,15 @@ nav .active {
   text-align: left;
   padding-left: 20%;
 }
+
+.cleanx{
+   background-color: #1EB1ED; /* MotifBlue */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+h6{
+  text-align: center;
+}
