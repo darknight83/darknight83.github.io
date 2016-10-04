@@ -14,7 +14,6 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-    font-family: 'Open Sans', sans-serif;
 }
 
 /*
@@ -292,7 +291,7 @@ body {
   /* -webkit-font-smoothing: antialiased; */
 }
 
-.marketing {
+header {
   /* height: 100vh; */
   height: 100vh;
   /* min-height: 400px; */
@@ -300,34 +299,34 @@ body {
   text-align: center;
   background-color: #2492D6;
   position: relative;
-  background-image: url('../assets/Landing_page6.jpeg');
+  background-image: url('../assets/Landing_page.jpeg');
   background-size: cover;
   border-bottom: 3px solid #2492D6;
-  
+  background-image
 }
 
 header h1 {
   color: white;
   position: relative;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
 }
 
-h1{
+h1 {
   font-weight: 300;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   font-size: 3em;
   color: #F95758;
   text-align: center;
 }
 
 article {
-  padding: 1rem 1rem 1rem 1rem;
-  text-align: left;
+  padding: 1rem;
+  text-align: center;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lora', serif;
   color: #222;
   font-size: 25px;
   padding: 0 3rem;
@@ -342,6 +341,10 @@ p {
 
 .sticky-nav-wrapper {
   height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-color: white;
   box-shadow: 0 3px 11px rgba(0, 0, 0, .1);
   transition: all 300ms ease-out;
@@ -349,14 +352,18 @@ p {
 
 }
 
-
- .logoSize{
-  width: 200px;
-  padding-top: 10px;
-  padding-left: 30px;
-   opacity: 1.0;
+.logo{
+  float: left;
+  width: 65px;
  }
 
+nav {
+  float: right;
+  width: 80%;
+  text-align: center;
+
+  
+}
 
 nav ul {
     margin: 0;
@@ -367,13 +374,12 @@ nav li {
   display: inline-block;
 }
 
-nav a{
+nav a {
   display: inline-block;
   margin: 1rem;
   padding: .25rem 0;
   text-decoration: none;
   color: #888;
-  text-transform: uppercase;
 }
 
 
@@ -381,6 +387,27 @@ nav .active {
   border-bottom: 2px solid #F95758;
 }
 
+.scrolled {
+  /* Part 1: A) Add styles for fixed nav */
+  position: fixed;
+  top:0;
+  left: 0;
+
+}
+
+/* --------------NAV ITEMS------------ */
+ 
+
+header .nav-items a {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    line-height: 1.2;
+    letter-spacing: .5px;
+    display: block;
+    padding: 0.75em 1.0em;
+    transition: all 0.2s ease-in-out;
+}
 /* --------------BUTTON STYLES------------ */
 
 .demo {
@@ -406,44 +433,6 @@ nav .active {
 /* ---------------------------------------------------------
     M A I N   N A V   S T Y L E S
   ---------------------------------------------------------- */
-  .bottomline{
-    border-bottom: 3px solid #2492D6;
-  }
 
-/* ---------------------------------------------------------
-    FOOTER   S T Y L E S
-  ---------------------------------------------------------- */
 
-.footTwo{
-  padding-top: 30px;
-  padding-left: 100px;
-  padding-right: 100px;
 
-  padding-bottom: 30px;
-  text-align: left;
-  background-color: #222222;
-  color: #a1a1a1;
-  font-size: 12px;
-  font-weight: 300;
-/*   font-style: italic; */
-}
-
- .bottomline1{
-    border-bottom: 1px solid #575757;
-  }
-
-  .iconSize{
-  width: 300px;
-  padding-top: 10px;
-  padding-left: 30px;
- }
-
-.article1{
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-.listItems{
-  text-align: left;
-  padding-left: 20%;
-}
