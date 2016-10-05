@@ -436,7 +436,7 @@ nav .active {
   }
 
   .iconSize{
-  width: 300px;
+  width: 120px;
   padding-top: 10px;
   padding-left: 30px;
  }
@@ -461,4 +461,8 @@ nav .active {
 }
 h6{
   text-align: center;
+}
+h4{
+  margin-top: 20px;
+  margin-left: 100px;
 }
